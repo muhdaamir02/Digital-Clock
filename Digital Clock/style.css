@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-image: url(robert-lukeman-_RBcxo9AU-U-unsplash.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    background-color: darkgreen;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.clock {
+    display: flex;
+}
+
+.clock div {
+    margin: 5px;
+}
+
+.clock span {
+    width: 100px;
+    font-family: sans-serif;
+    height: 80px;
+    background-color: green;
+    opacity: .8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.clock .text {
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing:2px;
+    background: darkgreen;
+    opacity: 0.8;
+
+}
+
+.clock #ampm {
+    background: blue;
+}
+.clock #ampm1{
+    background: darkblue;
+}
